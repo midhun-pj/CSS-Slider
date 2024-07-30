@@ -1,0 +1,19 @@
+.carousal {
+    width: 45rem;
+    height: 40rem;
+    border-radius: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    position: relative;
+    scroll-snap-type: x mandatory;
+}
+
+.carousal img {
+    flex: 0 0 100%;
+    object-fit: cover;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    scroll-snap-align: start;
+}
